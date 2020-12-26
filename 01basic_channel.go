@@ -1,8 +1,10 @@
-package main
+// Place 01 - Working with  basic channels
+
+package golang_channel_tour
 
 import "fmt"
 
-func main() {
+func BasicChannel() {
 
 	var ch chan int
 	fmt.Printf("ch: %v len: %d capacity: %d\n", ch, len(ch), cap(ch))
