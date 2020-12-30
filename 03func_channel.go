@@ -15,7 +15,7 @@ var (
 	r = rand.New(s)
 )
 
-func main() {
+func FuncChannel() {
 	// passing channel to function
 	// d := make(chan int, CH_CAP)
 	// if d == nil {
